@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker-compose up -d workspace nginx mysql php-fpm redis mysql-admin
+docker-compose -f docker-compose.prod.yml up -d workspace nginx mysql php-fpm redis certbot
